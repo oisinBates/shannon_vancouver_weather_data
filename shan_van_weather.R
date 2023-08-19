@@ -166,5 +166,5 @@ ggplot(data = long_format_monthly_insights_df) +
       "fifteen_to_twenty_mm",
       "twenty_plus_mm"
     ),
-    labels = c("<= 5", ">= 5 & < 10", ">= 10 & < 15", ">= 15 & < 20", ">= 20")
+    labels = c("< 5", ">= 5 & < 10", ">= 10 & < 15", ">= 15 & < 20", ">= 20")
   )
